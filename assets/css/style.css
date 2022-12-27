@@ -131,8 +131,9 @@ li {
 }
 
 span {
-  color: #1c1c11;
-  font-size: 18px;
+  color: #42a37b;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .input-group2 {
