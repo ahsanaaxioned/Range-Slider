@@ -140,9 +140,14 @@ span {
   margin: 50px 0;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
-.input-value2 { margin: 8px 1%; }
+.input-value2 { 
+  margin: 8px 1%;
+  position: absolute; 
+  top: 10px;
+}
 
 /*=================================
   main styling ends here

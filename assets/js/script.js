@@ -19,6 +19,7 @@ setInterval(() => {
 
 inputTwo.addEventListener("input", () => {
   rangeval2.innerText = inputTwo.value;
+  rangeval2.style.left = `${ inputTwo.value}px`
 });
 
 // function and event for both input range end here
