@@ -1,5 +1,6 @@
 // global variable start here
 
+
 const inputOne = document.querySelector(".input"),
   rangeval = document.querySelector(".input-value"),
   inputTwo = document.querySelector(".input2"),
@@ -19,6 +20,8 @@ setInterval(() => {
 
 inputTwo.addEventListener("input", () => {
   rangeval2.innerText = inputTwo.value;
+  rangeval2.style.left = `${ inputTwo.value}px`
 });
+
 
 // function and event for both input range end here
